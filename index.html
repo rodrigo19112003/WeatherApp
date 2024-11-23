@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <script type="text/javascript" src="js/script.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="background"></div>
+    <header>
+        <h1>¡Consulta el estado del clima aquí!</h1>
+    </header>
+    <main>
+        <p>Por favor ingresa el nombre de la ciudad a continuación:</p>
+        <input type="text" id="city-input" placeholder="Escribe la ciudad aquí">
+        <div class="buttons">
+            <button onclick="checkCurrentWeather()">Clima actual</button>
+            <button onclick="checkFiveDayWeather()">Pronóstico del tiempo</button>
+        </div>
+    </main>
+    <section id="results">
+        
+    </section>
+</body>
+
+</html>
